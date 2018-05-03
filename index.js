@@ -1,3 +1,3 @@
 function justInvoke(fn){
-  return this.call(fn)
+  return fn.call(this)
 }
